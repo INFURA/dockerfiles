@@ -23,7 +23,7 @@ Run in this directory the file
 
 Will invoke `docker build` and package your swarm image into an alpine container.
 
-If you need to package from a fork, take a loog at the code of the executable above.
+If you need to package from a fork, take a look at the code of the `Dockerfile`.
 You need to comment / uncomment a couple of lines to accomplish that goal.
 
 ### Running the image
