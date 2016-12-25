@@ -28,7 +28,19 @@ You need to comment / uncomment a couple of lines to accomplish that goal.
 
 ### Running the image
 
-(TODO)
+Just
+
+```
+docker run -ti --tm infura/swarm <options>
+```
+
+Tricky part is figuring out the options. Please refer to [the official swarm guide](http://swarm-guide.readthedocs.io/en/latest/runninganode.html).
+
+Now, to run a gateway of swarm backed by a geth node, use this script
+
+```
+./gateway.sh
+```
 
 ### Testing your image
 
